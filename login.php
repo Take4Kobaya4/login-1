@@ -73,10 +73,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["submit"])) {
             <input type="password" name="password" class="form-control" required>
           </div>
           <div class="form-group">
-            <input type="submit" name="submit" class="btn btn-primary" value="submit">
+            <input type="submit" name="submit" class="btn btn-primary" value="ログイン">
           </div>
           <div class="form-group">
+
             <p>アカウントはお持ちではありませんか？<a href="register.php">登録はこちら！</a></p>
+            <a href="forget_password.php" class="ForgetPwd">パスワードお忘れの場合はこちらへ</a>
           </div>
         </form>
       </div>
